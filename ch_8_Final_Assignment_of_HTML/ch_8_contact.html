@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 22px;
+  left: 16px;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+  <img src="header.png" alt="Links" style="width:100%; height:200px;">
+  <div class="bottom-left">
+    <a href="ch_8.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="ch_8_about.html">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="ch_8_portfolio.html">Portfolio</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="ch_8_contact.html">Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;
+  </div>
+</div>
+<h1>Contact page</h1>
+<form action="#">
+  <fieldset>
+      <legend>Your Details:</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email"><br><br>
+  </fieldset>
+
+  <fieldset>
+      <legend>Your Review:</legend>
+      <label for="q1">How did you hear about us?</label>
+      <select name="q1" id="org">
+          <option value="google">google</option>
+          <option value="facebook">facebook</option>
+      </select><br><br>
+      <label for="q2">Would you visit again?</label><br>
+      <input type="radio" id="yes" name="q2" value="yes">
+      <label for="yes">Yes</label>
+      <input type="radio" id="no" name="q2" value="no">
+      <label for="no">No</label>
+      <input type="radio" id="maybe" name="q2" value="maybe">
+      <label for="maybe">Maybe</label><br>
+      <label for="comm">Comment</label></br>
+      <textarea id="comm"></textarea></br>
+      <input type="checkbox" id="signme" name="signme" value="signme">
+      <label for="signme"> Sign me up for email updates</label><br><br>
+      <input type="submit" value="Submit">  
+  </fieldset>
+  </form>
+
+  <h1>Map of google</h1>
+  <center>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1659.7427486442393!2d73.01119342003608!3d33.69638413235193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x798a2079d01c4cfb!2sPIAIC%20Attestation%20Center%2C%20F-10%20Markaz%2C%20Islamabad!5e0!3m2!1sen!2s!4v1611429672914!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+  </center>
+</body>
+</html> 
